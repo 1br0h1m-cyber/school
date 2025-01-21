@@ -36,7 +36,7 @@ const NavbarMobile = () => {
       </div>
 
       <div className={`lg:hidden justify-center w-full fixed left-0 right-0 top-[70px] bg-white border-t border-black
-        ${toggle ? 'translate-y-0' : '-translate-y-full'} transition-transform duration-300 z-30 pl-10 sm:pl-0 py-3`}>
+        ${toggle ? 'translate-y-0' : '-translate-y-full'} transition-transform duration-300 z-40 pl-10 sm:pl-0 py-3`}>
 
         <div className='flex flex-col sm:flex-row justify-center w-full sm:space-x-8'>
           <a href="#about" className='hover:text-[#E5B300] transition'>About</a>
