@@ -1,4 +1,6 @@
 import React from 'react'
+
+//components
 import Button from '../ui/button'
 
 const About = () => {
