@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        ssm: '400px',
         xlg: '1111px',
       },
       container: {

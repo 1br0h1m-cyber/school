@@ -18,8 +18,8 @@ const NavbarDefault = () => {
       </div>
 
       <div className='flex gap-3'>
-        <Button text={'login'} />
-        <Button text={'Sign up'} v1={true} />
+        <Button text={'login'} className={'p-2'}/>
+        <Button text={'Sign up'} v1={true} className={'p-2'}/>
       </div>
 
     </div>

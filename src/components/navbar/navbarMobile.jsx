@@ -29,8 +29,8 @@ const NavbarMobile = () => {
         </div>
 
         <div className='hidden sm:flex gap-3'>
-          <Button text={'login'} />
-          <Button text={'Sign up'} v1={true} />
+          <Button text={'login'} className={'p-2'} />
+          <Button text={'Sign up'} v1={true} className={'p-2'} />
         </div>
 
       </div>
@@ -38,7 +38,7 @@ const NavbarMobile = () => {
       <div className={`lg:hidden justify-center w-full fixed left-0 right-0 top-[70px] bg-white border-t border-black
         ${toggle ? 'translate-y-0' : '-translate-y-full'} transition-transform duration-300 z-40 pl-10 sm:pl-0 py-3`}>
 
-        <div className='flex flex-col sm:flex-row justify-center w-full sm:space-x-8'>
+        <div className='flex flex-col sm:flex-row justify-center w-full sm:space-x-8 space-y-2 sm:space-y-0 text-[20px]'>
           <a href="#about" className='hover:text-[#E5B300] transition'>About</a>
           <a href="#university" className='hover:text-[#E5B300] transition'>University</a>
           <a href="#courses" className='hover:text-[#E5B300] transition'>Courses</a>
@@ -47,8 +47,8 @@ const NavbarMobile = () => {
         </div>
 
         <div className='flex gap-3 pt-2 sm:hidden'>
-          <Button text={'login'} />
-          <Button text={'Sign up'} v1={true} />
+          <Button text={'login'} className={'p-2'}/>
+          <Button text={'Sign up'} v1={true} className={'p-2'}/>
         </div>
 
       </div>
