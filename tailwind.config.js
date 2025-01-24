@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       screens: {
         ssm: '400px',
-        xlg: '1111px',
+        xlg: '1150px',
       },
       container: {
         center: true, 

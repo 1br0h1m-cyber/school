@@ -5,7 +5,7 @@ import Button from '../ui/button'
 
 const NavbarDefault = () => {
   return (
-    <div className='hidden lg:flex justify-between items-center h-[70px] fixed bg-white left-0 right-0 lg:px-6 xlg:px-12 z-50'>
+    <div className='hidden lg:flex justify-between items-center h-[70px] fixed bg-white left-0 right-0 lg:px-8 xlg:px-12 z-50'>
 
       <div className='font-semibold text-[20px]'>3-Maktab</div>
 
@@ -14,12 +14,12 @@ const NavbarDefault = () => {
         <a href="#university" className='hover:text-[#E5B300] transition'>University</a>
         <a href="#courses" className='hover:text-[#E5B300] transition'>Courses</a>
         <a href="#community" className='hover:text-[#E5B300] transition'>Community</a>
-        <a href="#news" className='hover:text-[#E5B300] transition'>News</a>
+        <a href="#faqs" className='hover:text-[#E5B300] transition'>Faqs</a>
       </div>
 
       <div className='flex gap-3'>
-        <Button text={'login'} className={'p-2'}/>
-        <Button text={'Sign up'} v1={true} className={'p-2'}/>
+        <Button text={'login'}/>
+        <Button text={'Sign up'} v1={true}/>
       </div>
 
     </div>

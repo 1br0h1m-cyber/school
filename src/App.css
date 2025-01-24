@@ -1,4 +1,10 @@
 html {
     scroll-behavior: smooth;
   }
-  
+
+.communityBg {
+  background-image: url('./assets/rectangle.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,22 +1,22 @@
 import React from 'react'
 
 //sections
-import Home from '../components/main/home'
+import Header from '../components/main/header'
 import About from '../components/main/about'
 import University from '../components/main/university'
 import Courses from '../components/main/courses'
 import Community from '../components/main/community'
-import News from '../components/main/news'
+import Faqs from '../components/main/faqs'
 
 const WebPage = () => {
   return (
     <div className='pt-[70px]'>
-      <Home />
+      <Header />
       <About/>
+      <Community/>
       <University/>
       <Courses/>
-      <Community/>
-      <News/>
+      <Faqs/>
     </div>
   )
 }
