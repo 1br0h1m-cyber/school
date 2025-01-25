@@ -40,9 +40,9 @@ const NavbarMobile = () => {
 
         <div className='flex flex-col sm:flex-row justify-center w-full sm:space-x-8 space-y-2 sm:space-y-0 text-[20px]'>
           <a href="#about" className='hover:text-[#E5B300] transition'>About</a>
+          <a href="#community" className='hover:text-[#E5B300] transition'>Community</a>
           <a href="#university" className='hover:text-[#E5B300] transition'>University</a>
           <a href="#courses" className='hover:text-[#E5B300] transition'>Courses</a>
-          <a href="#community" className='hover:text-[#E5B300] transition'>Community</a>
           <a href="#faqs" className='hover:text-[#E5B300] transition'>Faqs</a>
         </div>
 

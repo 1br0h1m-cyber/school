@@ -11,9 +11,9 @@ const NavbarDefault = () => {
 
       <div className='space-x-6'>
         <a href="#about" className='hover:text-[#E5B300] transition'>About</a>
+        <a href="#community" className='hover:text-[#E5B300] transition'>Community</a>
         <a href="#university" className='hover:text-[#E5B300] transition'>University</a>
         <a href="#courses" className='hover:text-[#E5B300] transition'>Courses</a>
-        <a href="#community" className='hover:text-[#E5B300] transition'>Community</a>
         <a href="#faqs" className='hover:text-[#E5B300] transition'>Faqs</a>
       </div>
 

@@ -8,3 +8,10 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.faqs {
+  background-image: url('./assets/faq.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
